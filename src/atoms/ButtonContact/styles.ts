@@ -11,9 +11,15 @@ export const Container = styled.button`
     border-radius: 100px;
     margin-top: 20px;
     transition: all 0.25s ease-out;
-    
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+       }
     &:hover {
         background-color: #f8fdff; 
         color: #17A4D0;
+        
     }   
 `;

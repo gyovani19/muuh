@@ -10,7 +10,15 @@ export const Container = styled.button`
     border-radius: 5px;
     box-shadow: 0px 0px 17px -8px transparent;
     transition: all 0.25s ease-out;
-    
+    @media (max-width: 768px) {
+        
+        
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        margin: 0px;
+        margin-right: 80px;
+      }
 
     &:hover {
         color: #fff;
