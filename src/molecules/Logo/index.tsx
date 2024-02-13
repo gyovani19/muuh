@@ -1,8 +1,8 @@
-import LogoNetVak from '../../assets/logo-netvak.png';
+import LogoMuuh from '../../assets/muuh-transpa.png';
 
 
 const Logo = () => {
-    return <img src={LogoNetVak} alt= "Logo Netvak" />;
+    return <img src={LogoMuuh} alt= "Logo Muuh" />;
 };
 
 export default Logo

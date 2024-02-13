@@ -7,6 +7,10 @@ const globalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    img {
+        width: 200em;
+    }
+
     html, body, #root {
         height: 100%;
     }
@@ -17,9 +21,11 @@ const globalStyle = createGlobalStyle`
     }
 
     button{
-        background-color:none;
+        background-color: transparent;
         border: none;
         outline: none;   
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
     }
 
     a{
